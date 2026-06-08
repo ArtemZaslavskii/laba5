@@ -17,7 +17,6 @@ public class Task3 extends Application {
     private TextArea receipt;
 
     @Override
-    @SuppressWarnings("unchecked")
     public void start(Stage stage) {
         checks  = new CheckBox[NAMES.length];
         spinners = new Spinner[NAMES.length];
